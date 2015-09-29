@@ -1,156 +1,185 @@
 {
-    "images":
-    {
-        "title":
-        {
+	"images": {
+		"terrafirmacraft": {
+			"image": "terrafirmapack:textures/overlays/TFCLogo.png",
+			"posX": -145,
+			"posY": 65,
+			"width": 300,
+			"height": 40,
+			"alignment": "top_center"
+		},
+        "minecraft": {
             "image" : "custommainmenu:textures/gui/minecraft.png",
-            "posX" : -137,
-            "posY" : 30,
-            "width" : 512,
-            "height" : 512,
+            "posX" : -101,
+            "posY" : 105,
+            "width" : 384,
+            "height" : 384,
             "alignment" : "top_center"
         }
-    },
-    
-    "buttons":
-    {
-        "singleplayer":
-        {
-            "text" : "menu.singleplayer",
-            "posX" : -100,
-            "posY" : 48,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "singleplayer"
-            }
-        },
-        
-        "multiplayer":
-        {
-            "text" : "menu.multiplayer",
-            "posX" : -100,
-            "posY" : 72,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "multiplayer"
-            }
-        },
-        
-        "mods":
-        {
-            "text" : "Mods",
-            "posX" : -100,
-            "posY" : 96,
-            "width" : 200,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "mods"
-            }
-        },
-            
-        "options":
-        {
-            "text" : "menu.options",
-            "posX" : -100,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "options"
-            }
-        },
-        
-        "quit":
-        {
-            "text" : "menu.quit",
-            "posX" : 2,
-            "posY" : 132,
-            "width" : 98,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "quit"
-            }
-        },
-        
-        "language":
-        {
-            "text" : "",
-            "posX" : -124,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "languages"
-            }
-        },
-        
-        "refresh":
-        {
-            "text" : "",
-            "posX" : -154,
-            "posY" : 132,
-            "width" : 20,
-            "height" : 20,
-            "texture" : "custommainmenu:textures/gui/buttons.png",
-            "action" : 
-            {
-                "type" : "refresh"
-            }
-        }
-    },
-    
-    "texts":
-    {
-        "mojang":
-        {
-            "text" : "Copyright Mojang AB. Do not distribute!",
-            "posX" : -197,
-            "posY" : -10,
-            "color" : -1,
-            "alignment" : "bottom_right"
-        },
-        
-        "fml":
-        {
-            "text" : "",
-            "posX" : 2,
-            "posY" : -50,
-            "color" : -1,
-            "alignment" : "bottom_left"
-        }
-    },
-    
-    "other":
-    {
-        "splash-text":
-        {
-            "posX" : 90,
-            "posY" : 70,
-            "color" : -256,
-            "alignment" : "top_center",
-            "file" : "texts/splashes.txt"
-        },
-        
-        "panorama":
-        {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
-            "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
-        }
-    }
+	},
+	"buttons": {
+		"singleplayer": {
+			"text": "menu.singleplayer",
+			"posX": -100,
+			"posY": 48,
+			"width": 200,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "singleplayer"
+			}
+		},
+		"multiplayer": {
+			"text": "menu.multiplayer",
+			"posX": -100,
+			"posY": 72,
+			"width": 200,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "multiplayer"
+			}
+		},
+		"mods": {
+			"text": "Mods",
+			"posX": -100,
+			"posY": 96,
+			"width": 200,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "mods"
+			}
+		},
+		"options": {
+			"text": "menu.options",
+			"posX": -100,
+			"posY": 132,
+			"width": 98,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "options"
+			}
+		},
+		"quit": {
+			"text": "menu.quit",
+			"posX": 2,
+			"posY": 132,
+			"width": 98,
+			"height": 20,
+			"action": {
+				"type": "quit"
+			}
+		},
+		"language": {
+			"text": "",
+			"posX": -124,
+			"posY": 132,
+			"width": 20,
+			"height": 20,
+			"action": {
+				"type": "openGui",
+				"gui": "languages"
+			}
+		},
+		"refresh": {
+			"text": "",
+			"posX": -154,
+			"posY": 132,
+			"width": 20,
+			"height": 20,
+			"texture": "custommainmenu:textures/gui/buttons.png",
+			"action": {
+				"type": "refresh"
+			}
+		},
+		"Support": {
+			"text": "",
+			"texture": "terrafirmapack:textures/buttons/Blue_Steel_Hammer.png",
+			"text": "Support",
+			"alignment": "top_right",
+			"posX": -65,
+			"posY": 20,
+			"width": 45,
+			"height": 45,
+			"action": {
+				"type": "openLink",
+				"link": "http://terrafirmacraft.com/f/forum/11-support/"
+			}
+		},
+		"Changelogs": {
+			"text": "",
+			"texture": "terrafirmapack:textures/buttons/Anvil_Black_Steel.png",
+			"alignment": "top_center",
+			"text": "Change Log",
+			"posX": -26,
+			"posY": 12,
+			"width": 45,
+			"height": 45,
+			"action": {
+				"type": "openLink",
+				"link": "http://terrafirmacraft.com/change_log.html"
+			}
+		},
+		"Website": {
+			"text": "",
+			"texture": "terrafirmapack:textures/buttons/Red_Steel_Pick.png",
+			"text": "Website",
+			"alignment": "top_left",
+			"posX": 22,
+			"posY": 20,
+			"width": 45,
+			"height": 45,
+			"action": {
+				"type": "openLink",
+				"link": "http://terrafirmacraft.com"
+			}
+		}
+	},
+	"texts": {
+		"mojang": {
+			"text": "Copyright Mojang AB",
+			"posX": -108,
+			"posY": -20,
+			"color": -1,
+			"alignment": "bottom_right"
+		},
+        "technode": {
+			"text": "pack maintained by TechNode",
+			"posX": -149,
+			"posY": -35,
+			"color": -1,
+			"alignment": "bottom_right"
+		},
+		"fml": {
+			"text": "",
+			"posX": 5,
+			"posY": -50,
+			"color": -1,
+			"alignment": "bottom_left"
+		},
+		"modpack": {
+			"text": "TerrafirmaPack 0.79.24.816 Build 2",
+			"posX": 5,
+			"posY": -70,
+			"color": -256,
+			"alignment": "bottom_left"
+		}
+	},
+	"other": {
+		"background": {
+			"image": "",
+			"slideshow": {
+				"images": ["terrafirmapack:textures/background/background.png",
+				"terrafirmapack:textures/background/background1.png",
+				"terrafirmapack:textures/background/background2.png",
+				"terrafirmapack:textures/background/background3.png",
+				"terrafirmapack:textures/background/background4.png"],
+				"displayDuration": 150,
+				"fadeDuration": 40,
+				"shuffle": false
+			}
+		}
+	}
 }
