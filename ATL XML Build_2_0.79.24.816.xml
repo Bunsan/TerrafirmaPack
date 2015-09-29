@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TerrafirmaPack ATLauncher XML -->
-        <version>0.79.24.816_build_1</version>
+        <version>Build_2_0.79.24.816</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -81,7 +81,7 @@
 
         <mod name="Inventory Tweaks" version="1.59-dev-152-cf6e263" url="packs/TerrafirmaPack/files/Mods/InventoryTweaks-1.59-dev-152.jar" file="InventoryTweaks-1.59-dev-152.jar" md5="83f7ddcd5f5fd8d640aa15dc62acc6bf" download="server" type="mods" website="https://github.com/Kobata/inventory-tweaks" authors="Jimeo Wan,Kobata" description="Tweaks to inventory handling for ease of use and sorting of items." client="yes" optional="yes" server="no" recommended="no" colour="green" depends="InventoryTweaks Config" />
 
-        <mod name="Better Foliage" version="1.0.13" url="packs/TerrafirmaPack/files/Mods/BetterFoliage-mc1.7-1.0.13.jar" file="BetterFoliage-mc1.7-1.0.13.jar" md5="bbc0592512759fe86de1cc804da37bcf" download="server" type="mods" website="http://www.curseforge.com/projects/228529/" authors="octarine-noise (code),Meringue (textures)" description="Leafier leaves and grassier grass" colour="green" client="yes" optional="yes" server="no" recommended="no" depends="Better Foliage Config" />
+        <mod name="Better Foliage" version="1.0.14" url="packs/TerrafirmaPack/files/Mods/BetterFoliage-mc1.7-1.0.14.jar" file="BetterFoliage-mc1.7-1.0.14.jar" md5="ea1418ec280a541219e0fa9ff71e2ed2" download="server" type="mods" website="http://www.curseforge.com/projects/228529/" authors="octarine-noise (code),Meringue (textures)" description="Leafier leaves and grassier grass" colour="green" client="yes" optional="yes" server="no" recommended="no" depends="Better Foliage Config" />
         
         <mod name="Dynamic Lights" version="1.3.8" url="packs/TerrafirmaPack/files/Mods/DynamicLights1.3.8-1.7.10.jar" file="DynamicLights1.3.8-1.7.10.jar" md5="8840330ed22e14467063f73e2aa8ca04" download="server" type="mods" description="Makes the world light up using items in hand." website="http://www.atomicstryker.net" colour="green" client="yes" optional="yes" server="no" recommended="no" depends="Dynamic Lights Config" />
 
@@ -105,7 +105,7 @@
         
 <!--    <mod name="UdaryMod" version="0.2.27" url="packs/TerrafirmaPack/files/Mods/[1.7.10]TFCUdaryMod-0.2.27.jar" file="[1.7.10]TFCUdaryMod-0.2.27.jar" md5="032e633295c43fcce275f960adb76618" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/7587-tfc-07923-udary-mod-galenalimonite-extraction-ingame-alloy-calculator-tucker-bag-evaporator-pan-drying-mat/" description="Silver extraction from Galena ore. Nickel extraction from Limonite ore. Transporting animals with Tucker Bags. Extracting items from fluids via Evaporation. Drying mat to dry fruit. Alloy Calculator to allows players to check alloy combinations. TFC Additions " client="yes" optional="yes" server="yes" serveroptional="yes" colour="blue" recommended="no" /> -->
         
-<!--        <mod name="TFC-Additions" version="1.0.0" url="packs/TerrafirmaPack/files/Mods/[1.7.10][0.79.23]TFC-Additions-1.0.0.jar" file="[1.7.10][0.79.23]TFC-Additions-1.0.0.jar" md5="d608e1ee5dbab88bdad35a87e421df07" download="server" type="mods" website="http://interburn.org" authors="raymondbh" description="Additions to TerraFirmaCraft" client="yes" optional="yes" server="yes" serveroptional="yes" colour="blue" recommended="no" /> -->
+<!--        <mod name="TFC-Additions" version="1.0.0" url="packs/TerrafirmaPack/files/Mods/[1.7.10][0.79.23]TFC-Additions-1.0.1.jar" file="[1.7.10][0.79.23]TFC-Additions-1.0.1.jar" md5="02049bb8b48eb2bf320bee766176eb9b" download="server" type="mods" website="http://interburn.org" authors="raymondbh" description="Additions to TerraFirmaCraft" client="yes" optional="yes" server="yes" serveroptional="yes" colour="blue" recommended="no" /> -->
         
         <mod name="TerraMisc" version="0.6.0" url="packs/TerrafirmaPack/files/Mods/[1.7.10]TerraMisc-0.6.0.jar" file="[1.7.10]TerraMisc-0.6.0.jar" md5="cafc182f9f2709df57b6cc8be7f22880" download="server" type="mods" website="http://terrafirmacraft.com/f/topic/8401-tfc-07920035terramisc-weapons-update/" authors="Powerman913717" description="Random stuff and things for TerraFirmaCraft!" client="yes" optional="yes" server="yes" serveroptional="yes" colour="blue" recommended="no" />
         
@@ -122,11 +122,15 @@
         <mod name="Streams" version="0.1.4" url="packs/TerrafirmaPack/files/Mods/Streams-0.1.4.jar" file="Streams-0.1.4.jar" md5="30cec0cc49a13df89c50c58c5cffc03e" download="server" type="mods" website="http://www.curseforge.com/projects/229769/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/mc-mods/229769-streams&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=delver.delves%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHosted&amp;cancel_return=http://m" authors="delvr" description="This mod introduces real flowing rivers, with a true current, to your Minecraft worlds. Compatible with many terrain generators!" client="yes" optional="yes" server="yes" serveroptional="yes" depends="Farseek" colour="blue" recommended="no" />
 
 <!-- Configs for Options -->
-        <mod name="Better Foliage Config" version="1.0.13" url="packs/TerrafirmaPack/files/extract/Better Foliage config.zip" file="Better Foliage config.zip" md5="d9928fd5d7aef34e3c298bc1066fd873" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TerrafirmaPack" description="Better Foliage config" client="yes" optional="yes" server="no" library="yes"
+        <mod name="Better Foliage Config" version="1.0.14" url="packs/TerrafirmaPack/files/extract/Better Foliage config_0.79.24.816_build_2.zip" file="Better Foliage config_0.79.24.816_build_2.zip" md5="3f45046a20b07e94dcc7b6c69101702f" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TerrafirmaPack" description="Better Foliage config" client="yes" optional="yes" server="no" library="yes"
         />
         <mod name="Dynamic Lights Config" version="1.3.8" url="packs/TerrafirmaPack/files/extract/DynamicLights config.zip" file="DynamicLights config.zip" md5="402c6ae72e091f312a54f35694dcc6e0" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TerrafirmaPack" description="Better Foliage config" client="yes" optional="yes" server="no" library="yes"
         />
         <mod name="InventoryTweaks Config" version="1.59-dev-152-cf6e263" url="packs/TerrafirmaPack/files/extract/Inventory Tweaks config.zip" file="Inventory Tweaks config.zip" md5="00c0d65676f1622ed1dd750907ca8ffb" download="server" type="extract" extractto="root" website="https://github.com/Bunsan/TerrafirmaPack" description="Inventory Tweaks config" client="yes" optional="yes" server="no" library="yes"
+        />
+<!-- Resource folder for Custom Main Menu -->
+        <mod 
+        name="Resource Loaders Folder" version="0.79.24.816_build_2" url="packs/TerrafirmaPack/files/extract/resources_0.79.24.816_build_2.zip" file="resources_0.79.24.816_build_2.zip" md5="e7b10a70ff79a1a4f92ccf379ac175b7" download="server" type="extract" extractto="root" optional="no" website="https://github.com/Bunsan/TerrafirmaPack" description="Resources" client="yes" server="no"
         />
     </mods>
 </version>
