@@ -172,7 +172,10 @@
 			"image": "",
 			"slideshow": {
 				"images": ["terrafirmapack:textures/background/background.png",
-				"terrafirmapack:textures/background/background.png"],
+				"terrafirmapack:textures/background/background1.png",
+				"terrafirmapack:textures/background/background2.png",
+				"terrafirmapack:textures/background/background3.png",
+				"terrafirmapack:textures/background/background4.png"],
 				"displayDuration": 150,
 				"fadeDuration": 40,
 				"shuffle": false
