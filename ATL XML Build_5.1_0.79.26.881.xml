@@ -1,7 +1,7 @@
 <version>
     <pack>
         <!-- TerrafirmaPack ATLauncher XML -->
-        <version>Build_5_0.79.26.881_New_Forge</version>
+        <version>Build_5.1_0.79.26.881</version>
         <minecraft>1.7.10</minecraft>
         <caseallfiles>lower</caseallfiles>
         <mainclass>net.minecraft.launchwrapper.Launch</mainclass>
@@ -26,6 +26,7 @@
         <library url="packs/TerrafirmaPack/files/forge/guava-17.0.jar" download="server" file="guava-17.0.jar" md5="89fef81c2adfa9b50a64ed5cd5d8c155" server="com/google/guava/guava/17.0/guava-17.0.jar" />
         <library url="packs/TerrafirmaPack/files/forge/commons-lang3-3.3.2.jar" download="server" file="commons-lang3-3.3.2.jar" md5="3128bf75a2549ebe38663401191bacab" server="org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar" />
     </libraries>
+
     <colours>
         <colour name="green" code="2EFE2E" />
         <colour name="blue" code="0099FF" />
@@ -37,7 +38,7 @@
     </colours>
     <mods>
         <mod 
-        name="Minecraft Forge" version="10.13.4.1566" url="packs/TerrafirmaPack/files/1.7.10/forge-1.7.10-10.13.4.1566-1.7.10-universal.jar" file="forge-1.7.10-10.13.4.1566-1.7.10-universal.jar" md5="0ea6339c09e06c3f77ab829eef6379cf" download="server" type="forge" website="http://www.minecraftforge.net/forum/" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z5MLLA62HSUM2" authors="Eloraam,FlowerChild,Hawkye,MALfunction84,Scokeev9,SpaceToad,LexManos,cpw" description="Minecraft Forge is a modding API used by a lot of mods." client="yes" optional="no" server="yes" serveroptional="no"
+        name="Minecraft Forge" version="10.13.4.1558" url="packs/TerrafirmaPack/files/1.7.10/forge-1.7.10-10.13.4.1558-1.7.10-universal.jar" file="forge-1.7.10-10.13.4.1558-1.7.10-universal.jar" md5="e69118167ebc00750f7cdc0a92603d64" download="server" type="forge" website="http://www.minecraftforge.net/forum/" donation="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=Z5MLLA62HSUM2" authors="Eloraam,FlowerChild,Hawkye,MALfunction84,Scokeev9,SpaceToad,LexManos,cpw" description="Minecraft Forge is a modding API used by a lot of mods." client="yes" optional="no" server="yes" serveroptional="no"
         />
         
         <mod name="TerraFirmaCraft" version="0.79.26.881" url="packs/TerrafirmaPack/files/Mods/[1.7.10]TerraFirmaCraft-0.79.26.881.jar" file="[1.7.10]TerraFirmaCraft-0.79.26.881.jar" md5="7044ce75804819556afee3964a30b4d0" download="server" type="mods" website="http://terrafirmacraft.com/change_log.html" donation="http://wiki.terrafirmacraft.com/Donate" authors="Bioxx,Dunkleosteus,Kittychanley" description="Survival Mode as it should have been." client="yes" optional="no" server="yes" serveroptional="no" />
@@ -128,7 +129,7 @@
 <!--        <mod name="Railcraft" version="9.8.0.0" url="packs/TerrafirmaPack/files/Mods/Railcraft_1.7.10-9.8.0.0.jar" file="Railcraft_1.7.10-9.8.0.0.jar" md5="1f5cf3ab63f80d2f2b627ff43e9e7cca" download="server" type="mods" website="http://railcraft.info/" donation="https://www.paypal.com/cgi-bin/webscr?return=http://minecraft.curseforge.com/projects/railcraft?gameCategorySlug=mc-mods&amp;projectID=51195&amp;cn=Add+special+instructions+to+the+addon+author()&amp;business=CovertJaguar%40gmail.com&amp;bn=PP-DonationsBF:btn_donateCC_LG." authors="CovertJaguar" description="Redefine your rails" client="yes" optional="yes" server="yes" serveroptional="yes" colour="blue" recommended="no" library="yes"/>
         
         <mod name="TFC Railcraft Compatibility" version="0.1.1" url="packs/TerrafirmaPack/files/Mods/tfcrailcraft-0.1.1.jar" file="tfcrailcraft-0.1.1.jar" md5="5d48ba765f779c8ad3ee0650e551e5e4" download="server" type="mods" website="http://www.curseforge.com/projects/230890/" authors="vidaj" description="Fixes recipes and makes Railcraft usable with TFC" client="yes" optional="yes" server="yes" serveroptional="yes" colour="blue" recommended="no" depends="Railcraft" />
- -->       
+       -->
         <mod name="BetterStorage-TFC" version="0.13.1.130-TFC" url="packs/TerrafirmaPack/files/Mods/BetterStorage-1.7.10-0.13.1.130-TFC.jar" file="BetterStorage-1.7.10-0.13.1.130-TFC.jar" md5="8762bd40b104221b55799af117cd75e7" download="server" type="mods" website="https://github.com/Bunsan/BetterStorage/tree/BetterStorage-TFC" description="BetterStorage Mod adapted for TFC. Storage options and Crafting Station" client="yes" optional="yes" server="yes" serveroptional="yes" colour="blue" recommended="no" library="yes" />
         
         <mod name="Decorations" version="1.0.20" url="packs/TerrafirmaPack/files/Mods/[1.7.10]Decorations-1.0.20.jar" file="[1.7.10]Decorations-1.0.20.jar" md5="fe95e5c98ca868e32abdaeaae28573b5" download="server" type="mods" website="http://darkagecraft.com/showthread.php?tid=215" authors="Aleksey Terzi" description="Decorations Addon for TFC." client="yes" optional="yes" server="yes" serveroptional="yes" colour="blue" recommended="no" />
