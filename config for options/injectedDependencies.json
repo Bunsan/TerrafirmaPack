@@ -1,0 +1,195 @@
+[
+  {
+    "modId": "TFC-Tweaks",
+    "deps": [
+      {
+        "type": "after",
+        "target": "terrafirmacraft"
+      },
+      {
+        "type": "before",
+        "target": "tfcadditions"
+      },
+      {
+        "type": "before",
+        "target": "DamageIndicatorsMod"
+      },
+      {
+        "type": "before",
+        "target": "DecorationsTFC"
+      },
+      {
+        "type": "before",
+        "target": "lwstfc"
+      },
+      {
+        "type": "before",
+        "target": "MerchantsTFC"
+      },
+      {
+        "type": "before",
+        "target": "MerchantsContainersTFC"
+      },
+      {
+        "type": "before",
+        "target": "tfcm"
+      },
+      {
+        "type": "before",
+        "target": "tfcautomatedbellows"
+      },
+      {
+        "type": "before",
+        "target": "tfccellars"
+      },
+      {
+        "type": "before",
+        "target": "weightingscales"
+      },
+      {
+        "type": "before",
+        "target": "tfcudarymod"
+      },
+      {
+        "type": "before",
+        "target": "animalcrate"
+      },
+      {
+        "type": "before",
+        "target": "Aroma1997CoreHelper"
+      },
+      {
+        "type": "before",
+        "target": "AromaBackup"
+      },
+      {
+        "type": "before",
+        "target": "AromaBackupRecovery"
+      },
+      {
+        "type": "before",
+        "target": "BetterFoliage"
+      },
+      {
+        "type": "before",
+        "target": "betterstorage"
+      },
+      {
+        "type": "before",
+        "target": "BiblioCraft"
+      },
+      {
+        "type": "before",
+        "target": "BiblioWoodsTFC"
+      },
+      {
+        "type": "before",
+        "target": "creativecore"
+      },
+      {
+        "type": "before",
+        "target": "CustomMainMenu"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_onFire"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_creepers"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_dropItems"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_entityClasses"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_mobEquipment"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_flameArrows"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_floodLights"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_otherPlayers"
+      },
+      {
+        "type": "before",
+        "target": "DynamicLights_thePlayer"
+      },
+      {
+        "type": "before",
+        "target": "farseek"
+      },
+      {
+        "type": "before",
+        "target": "FastCraft"
+      },
+      {
+        "type": "before",
+        "target": "HardcoreDarkness"
+      },
+      {
+        "type": "before",
+        "target": "inventorytweaks"
+      },
+      {
+        "type": "before",
+        "target": "MapWriter"
+      },
+      {
+        "type": "before",
+        "target": "opengrave"
+      },
+      {
+        "type": "before",
+        "target": "Railcraft"
+      },
+      {
+        "type": "before",
+        "target": "ResourceLoader"
+      },
+      {
+        "type": "before",
+        "target": "soundfilters"
+      },
+      {
+        "type": "before",
+        "target": "streams"
+      },
+      {
+        "type": "before",
+        "target": "TerraFirmaCraftNEIplugin"
+      },
+      {
+        "type": "before",
+        "target": "tfcrailcraft"
+      },
+      {
+        "type": "before",
+        "target": "TooMuchTime"
+      },
+      {
+        "type": "before",
+        "target": "Waila"
+      },
+      {
+        "type": "before",
+        "target": "GooglyEyes"
+      }
+    ]
+  }
+]
